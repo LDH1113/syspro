@@ -18,9 +18,7 @@ int main(){
 		}
 	}
 	
-	if(max > 0) {
-		for(int i; i>=5; i++){
+	if(max > 0)
 		printf("%s \n", longest);
-		}
 	return 0;
 }
