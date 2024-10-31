@@ -1,0 +1,5 @@
+StuID Name Score
+1001001 Park 96
+1001003 Kim 85
+1001006 Lee 88
+1001009 Jang 75
