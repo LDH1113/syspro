@@ -22,6 +22,15 @@ void printStack(struct node *top) {
     }
 }
 
+int pop(struct node **top) {
+    if (*top == NULL) return -1;
+    struct node *temp = *top;
+    int popped_data = temp->data;
+    *top = (*top)->next;
+    free(temp);
+    return popped_data;
+}
+
 int main() {
     struct node *top = NULL;
     char input[20];
